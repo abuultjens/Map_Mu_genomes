@@ -1,7 +1,7 @@
 # Map_Mu_genomes
 Steps to use snippy v4.4.5 to map Mu genomes against a reference chromosome
 
-## Download genomes
+## Download genomes from SRA
 ```
 # activate entrez-direct
 conda activate entrez-direct
