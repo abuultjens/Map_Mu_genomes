@@ -3,6 +3,7 @@ Steps to use snippy v4.4.5 to map Mu genomes against a reference chromosome
 
 ## Clone this repository
 ```
+# run git clone
 git clone https://github.com/abuultjens/Map_Mu_genomes.git
 ```
 
