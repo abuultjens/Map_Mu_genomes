@@ -12,7 +12,7 @@ cd Map_Mu_genomes
 
 ## Download genomes from SRA
 ```
-# activate entrez-direct conda environment
+# activate entrez-direct conda environment (conda install bioconda::entrez-direct)
 conda activate entrez-direct
 
 # command to parallel download 36 Vic Mu genomes from SRA
