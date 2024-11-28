@@ -24,8 +24,8 @@ sh fastq-dump_parallel.sh 36_VIC_fofn.txt 10
 
 ## Map reads to reference with snippy
 ```
-# conda install snippy v4.4.5
-conda install bioconda::snippy=4.4.5
+# activate your snippy v4.4.5 conda environment
+conda activate [environment_name]
 
 # command to run snippy in parallel
 sh snippy_parallel.sh [fofn.txt] [threads]
