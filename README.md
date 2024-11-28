@@ -12,8 +12,8 @@ cd Map_Mu_genomes
 
 ## Download genomes from SRA
 ```
-# activate entrez-direct conda environment (conda install bioconda::entrez-direct)
-conda activate entrez-direct
+# conda install entrez-direct
+conda install bioconda::entrez-direct
 
 # command to parallel download 36 Vic Mu genomes from SRA
 sh fastq-dump_parallel.sh [fofn.txt] [threads]
@@ -24,8 +24,8 @@ sh fastq-dump_parallel.sh 36_VIC_fofn.txt 10
 
 ## Map reads to reference with snippy
 ```
-# activate snippy v4.4.5 conda environment
-conda activate snippy_v4.4.5
+# conda install snippy v4.4.5
+conda install bioconda::snippy=4.4.5
 
 # command to run snippy in parallel
 sh snippy_parallel.sh [fofn.txt] [threads]
